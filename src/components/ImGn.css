@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 200px;
+    margin-top: 50px;
+}
+
+header{
+font-size: 20px;
+padding: 0px;
+font-weight:bolder;
+margin: 40px;
+}
+
+.image-generator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+ margin-bottom: 200px;
+}
+
+img{
+    width: 450px;
+    filter:brightness(50px);
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    height: 95px;
+    align-items: center;
+    border-radius: 25px;
+  padding: 0 10px;
+  margin-top: 20px;
+
+}
+.search::placeholder{
+    color: white;
+}
+
+.Input::placeholder{
+    color: white;
+}
+.search span{
+    display: flex;
+   
+    justify-content: space-between;
+}
+.Input{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+  justify-content: center;
+  border: none;
+  outline: none;
+  width: 600px;
+  border-radius: 50px;
+  background-color: hsla(215, 41%, 11%, 0.966);
+  color: white;
+  margin-top: 100px;
+  font-size:20px;
+  padding-left: 50px;
+}
+
+.Generatebtn{
+    display: flex;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: hsla(22, 77%, 44%, 0.966);
+    color: white;
+    font-size: 20px;
+}
+
+.Generatebtn:hover{
+    background-color: hsla(22, 34%, 37%, 0.952);
+}
